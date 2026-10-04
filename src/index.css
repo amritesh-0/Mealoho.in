@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+  body { @apply bg-paper font-sans text-ink antialiased; }
+  h1, h2, h3 { @apply font-display tracking-tight; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-leaf outline; }
+}
+@keyframes plate-in { from { opacity: 0; transform: rotate(-18deg) scale(.92); } to { opacity: 1; transform: none; } }
+.plate-in { animation: plate-in .9s cubic-bezier(.2,.8,.2,1) both; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .plate-in { animation: none; } }
