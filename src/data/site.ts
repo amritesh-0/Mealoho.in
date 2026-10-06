@@ -2,7 +2,7 @@ export const SITE = {
   name: 'MEALOHO',
   tagline: 'Your Mess, Simplified.',
   developer: '[Developer/Company Name]',
-  email: '[Support Email]',
+  email: '[help.mealoho@gmail.com]',
   year: 2026,
 }
 export const NAV_LINKS = [
