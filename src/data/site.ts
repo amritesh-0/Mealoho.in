@@ -1,5 +1,5 @@
 export const SITE = {
-  name: 'MELOHO',
+  name: 'MEALOHO',
   tagline: 'Your Mess, Simplified.',
   developer: '[Developer/Company Name]',
   email: '[Support Email]',
