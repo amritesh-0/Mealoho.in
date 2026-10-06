@@ -30,7 +30,7 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2">
         <div>
           <span className="inline-flex items-center gap-2 rounded-full bg-turmeric px-5 py-2 text-base font-bold text-ink sm:text-lg"><Clock size={18} aria-hidden /> COMING SOON</span>
-          <h1 className="mt-6 text-6xl font-extrabold sm:text-7xl lg:text-8xl">MELOHO</h1>
+          <h1 className="mt-6 text-6xl font-extrabold sm:text-7xl lg:text-8xl">MEALOHO</h1>
           <p className="mt-3 font-display text-2xl font-bold text-leaf sm:text-3xl">Your Mess, Simplified.</p>
           <p className="mt-5 max-w-lg text-lg text-muted">One simple platform to manage your mess, check daily meals, share feedback, rate food and stay connected with your mess community.</p>
           <div className="mt-8 flex flex-wrap gap-3">
