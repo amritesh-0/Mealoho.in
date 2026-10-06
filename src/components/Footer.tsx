@@ -18,7 +18,7 @@ export default function Footer() {
           </ul>
         </nav>
       </div>
-      <div className="border-t border-white/10 px-6 py-5 text-center text-sm text-white/60">© {SITE.year} Meloho. All rights reserved.</div>
+      <div className="border-t border-white/10 px-6 py-5 text-center text-sm text-white/60">© {SITE.year} Mealoho. All rights reserved.</div>
     </footer>
   )
 }
