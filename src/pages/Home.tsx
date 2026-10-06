@@ -24,7 +24,7 @@ export default function Home() {
       <Hero />
       <section className="bg-white px-6 py-20">
         <div className="mx-auto max-w-6xl">
-          <SectionHeading title="Why Meloho?" subtitle="Most students and mess teams still depend on notice boards and group chats. Meloho brings it all together." />
+          <SectionHeading title="Why Mealoho?" subtitle="Most students and mess teams still depend on notice boards and group chats. Mealoho brings it all together." />
           <ul className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {PROBLEMS.map((p) => (
               <li key={p.q} className="rounded-3xl border border-steel bg-paper p-6">
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
       <section className="bg-leaf px-6 py-20 text-white" aria-labelledby="how">
         <div className="mx-auto max-w-6xl">
-          <div id="how"><SectionHeading title="How Meloho works" light subtitle="Three simple steps." /></div>
+          <div id="how"><SectionHeading title="How Mealoho works" light subtitle="Three simple steps." /></div>
           <ol className="mt-12 grid gap-5 md:grid-cols-3">
             {STEPS.map((s) => (
               <li key={s.n} className="rounded-3xl bg-white/10 p-7">
