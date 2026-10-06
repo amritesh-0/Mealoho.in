@@ -7,7 +7,7 @@ export function Logo({ light }: { light?: boolean }) {
   return (
     <Link to="/" className="flex items-center gap-2.5" aria-label="MELOHO home">
       <svg width="32" height="32" viewBox="0 0 64 64" aria-hidden><rect width="64" height="64" rx="16" fill={light ? '#fff' : '#0E1B2C'} /><circle cx="32" cy="32" r="18" fill="#E6ECF2" /><circle cx="32" cy="32" r="11" fill="#F2B01E" /></svg>
-      <span className={`font-display text-xl font-extrabold tracking-wide ${light ? 'text-white' : 'text-ink'}`}>MELOHO</span>
+      <span className={`font-display text-xl font-extrabold tracking-wide ${light ? 'text-white' : 'text-ink'}`}>MEALOHO</span>
     </Link>
   )
 }
